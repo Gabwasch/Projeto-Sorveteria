@@ -1,0 +1,63 @@
+/*-----------------------inicio da pagina contato------------------*/
+
+main{
+	width: 940px;
+	margin: 0 auto;
+}
+
+form{
+	margin: 40px 0	;
+}
+form label, form legend{
+	display: block;
+	font-size: 20px;
+	margin: 0 0 10px;
+}
+
+.input-padrão{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 25px;
+	width: 50%;
+
+}
+
+.checkbox{
+	margin: 20px 0;
+}
+
+.Enviar{
+	width: 40%;
+	padding: 15px 0;
+	background: green;
+	color: white;
+	font-weight: bold;
+	font-size: 18px;
+	border: none;
+	border-radius: 5px;
+	transition: 1s all;
+	cursor: pointer;
+}
+
+.Enviar:hover{
+	background: #3CB371;
+	transform: scale(1.15);
+}
+
+.horario{
+	background: green;
+	color: white;
+	margin: 20px 0 40px;
+}
+
+thead{
+	background: green;
+	color: white;
+	font-weight: bold;
+}
+
+td, th{
+	border: 1px solid #3CB371;
+	padding: 15px 8px;
+}
+/*--------------------fim da pagina contato------------------*/

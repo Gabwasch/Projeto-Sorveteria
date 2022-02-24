@@ -4,7 +4,7 @@
 }
 
 a {
-    color: rgb(47, 48, 28);
+    color: rgb(28, 116, 20);
     text-decoration: none;
     transition: 0.3s;
 }
@@ -24,13 +24,13 @@ nav {
     justify-content: space-around;
     align-items: center;
     font-family: system-ui, -apple-system, 'Helvetica', sans-serif;
-    background: #d4b21a;
-    height: 8vh;
+    background: #F08080;
+    height: 20vh;
 }
 main{
-    background: url("/images/bg.jpg") no-repeat center center;
+    background: url("/images/bg.jpg") repeat center center;
     background-size: cover;
-    height: 92vh;
+    height: 200vh;
 }
 
 .nav-list {
@@ -62,11 +62,11 @@ main{
     }
     .nav-list{
         position: absolute;
-        top: 8vh;
+        top: 20vh;
         right: 0;
         width: 50vh;
         height: 92vh;
-        background: #d4b21a;
+        background: #F08080;
         flex-direction: column;
         align-items: center;
         justify-content: space-around;
