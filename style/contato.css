@@ -1,12 +1,8 @@
 /*-----------------------inicio da pagina contato------------------*/
-
-main{
-	width: 940px;
-	margin: 0 auto;
-}
-
 form{
-	margin: 40px 0	;
+	justify-content: space-around;
+	align-items: center;
+	color: #fff;
 }
 form label, form legend{
 	display: block;
