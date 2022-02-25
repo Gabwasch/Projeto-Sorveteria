@@ -28,7 +28,7 @@ nav {
     height: 20vh;
 }
 main{
-    background: url("/images/bg.jpg") repeat center center;
+    background: url("/images/bg.jpg") no-repeat center center;
     background-size: cover;
     height: 200vh;
 }

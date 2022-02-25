@@ -83,7 +83,7 @@
 
 .sorvetin{
 	position: relative;
-	width: 50%;
+	max-width: 100%;
 	opacity: 1;
 	box-shadow: 10px 10px 20px #000000;
 	margin: 20px 0 0 20px;
