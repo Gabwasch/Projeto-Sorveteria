@@ -15,7 +15,6 @@
 	width: 700px;
 	height: 470px;
 }
-
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
   
 /* This container is needed to position the front and back side */
@@ -169,4 +168,7 @@
 #sundae-img{
 	width: 250px;
 	height: 470px;
+}
+#didio{
+	width: 50%;
 }
