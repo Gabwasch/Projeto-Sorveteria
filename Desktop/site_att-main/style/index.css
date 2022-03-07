@@ -92,14 +92,6 @@ header{
   text-align: center;
 }
 
-/* Number text (1/3 etc) */
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
-}
 
 /* The dots/bullets/indicators */
 .dot {
@@ -137,7 +129,7 @@ header{
 /*-----------------------------inicio de imagens na area central-index--------------------------*/
 
 .img-index{
-	background: #717171;
+	background: #d47777;
 	display: flex;
 	position: relative;
 	margin: auto;
