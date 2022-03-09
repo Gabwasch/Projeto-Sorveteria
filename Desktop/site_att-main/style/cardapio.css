@@ -5,6 +5,10 @@ header{
     top: 0;
 }
 
+h2, h1{
+	font-size: 10px;
+}
+
 .caixa2{
 	display: inline-block;
 	width: 100%;
@@ -34,6 +38,7 @@ img {
 /* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */ 
 
 .container{
+	font-family: system-ui, -apple-system, 'Helvetica', sans-serif;
 	display: flex;
 	flex-wrap: wrap;
 	max-width: 800px;
