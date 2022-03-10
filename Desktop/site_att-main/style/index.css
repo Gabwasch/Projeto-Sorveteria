@@ -128,6 +128,7 @@ header{
 
 /*-----------------------------inicio de imagens na area central-index--------------------------*/
 
+/*------------ scroll lateral pra div das imagens ---------------
 .img-index{
 	background: #d47777;
 	display: flex;
@@ -140,177 +141,41 @@ header{
 	border: 2px solid #8B0000;
 	border-radius: 10px 10px 10px 10px;
 }
+--------------------------------------------------------*/
 
-.img1{
+img{
+	max-width: 100%;
+	display: block;
+	transition: 1s all;
+}
+
+img:hover{
+	transform: scale(1.05);
+}
+
+.img-index{
 	display: flex;
-	position: relative;
-	box-sizing: border-box;
-	border: 2px solid #8B0000;
-	border-radius: 10px 10px 10px 10px;
-	transition: 1s all;
-	width: 248px;
-	height: 370px;
-	background: url(../images/sv1.jpg) no-repeat;
-	background-size: contain;
-	margin: 25px;
-	padding-bottom: 50%;
-	white-space: nowrap;
+	flex-wrap: wrap;
+	max-width: 800px;
+	margin: 0 auto;
 }
 
-#sv1{
+.img-index > div{
+	flex: 1 1 200px;
+	margin: 10px;
+}
+
+.img-index a{
+	color:#fff;
 	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 20%;
-	background-size: cover;
+	text-decoration: none;
+	padding: 10px;
+	background: #F08080;
 }
 
-.img1:hover{
-	transform: scale(1.1);
-	cursor: pointer;
-}
-
-.img2{
-	display: flex;
-	position: relative;
-	box-sizing: border-box;
-	border: 2px solid #8B0000;
-	border-radius: 10px 10px 10px 10px;
-	transition: 1s all;
-	width: 248px;
-	height: 370px;
-	background: url(../images/sv2.jpg) no-repeat;
-	background-size: contain;
-	margin: 25px;
-	padding-bottom: 50%;
-	white-space: nowrap;
-}
-
-#sv2{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 20%;
-	background-size: cover;
-}
-
-.img2:hover{
-	transform: scale(1.1);
-	cursor: pointer;
-}
-
-.img3{
-	display: inline-block;
-	position: relative;
-	box-sizing: border-box;
-	border: 2px solid #8B0000;
-	border-radius: 10px 10px 10px 10px;
-	transition: 1s all;
-	width: 248px;
-	height: 370px;
-	background: url(../images/sv3.jpg) no-repeat;
-	background-size: contain;
-	margin: 25px;
-	padding-bottom: 50%;
-	white-space: nowrap;
-}
-
-#sv3{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 20%;
-	background-size: cover;
-}
-
-.img3:hover{
-	transform: scale(1.1);
-	cursor: pointer;
-}
-
-.img4{
-	display: inline-block;
-	position: relative;
-	box-sizing: border-box;
-	border: 2px solid #8B0000;
-	border-radius: 10px 10px 10px 10px;
-	transition: 1s all;
-	width: 248px;
-	height: 370px;
-	background: url(../images/sv4.jpg) no-repeat;
-	background-size: contain;
-	margin: 25px;
-	white-space: nowrap;
-}
-
-#sv4{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 20%;
-	background-size: cover;
-}
-
-.img4:hover{
-	transform: scale(1.1);
-	cursor: pointer;
-}
-
-
-.img5{
-	display: inline-block;
-	position: relative;
-	box-sizing: border-box;
-	border: 2px solid #8B0000;
-	border-radius: 10px 10px 10px 10px;
-	transition: 1s all;
-	width: 248px;
-	height: 329px;
-	background: url(../images/sv5.jpg) no-repeat;
-	background-size: contain;
-	margin: 25px;
-	white-space: nowrap;
-}
-
-#sv5{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 20%;
-	background-size: cover;
-}
-
-.img5:hover{
-	transform: scale(1.1);
-	cursor: pointer;
-}
-
-.img6{
-	display: inline-block;
-	position: relative;
-	box-sizing: border-box;
-	border: 2px solid #8B0000;
-	border-radius: 10px 10px 10px 10px;
-	transition: 1s all;
-	width: 248px;
-	height: 370px;
-	background: url(../images/sv6.jpg) no-repeat;
-	background-size: contain;
-	margin: 25px;
-	white-space: nowrap;
-}
-
-#sv6{
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 20%;
-	background-size: cover;
-}
-
-.img6:hover{
-	transform: scale(1.1);
-	cursor: pointer;
+a > p{
+	text-align: center;
+	margin: 10px;
 }
 /*-------------------------fim de imagens na area central-index---------------------*/
 
