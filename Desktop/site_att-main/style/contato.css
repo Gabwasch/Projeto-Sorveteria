@@ -88,4 +88,18 @@ td, th{
 #didio{
 	width: 50%;
 }
+
+section{
+	text-align: center;
+}
+
+section p{
+	color: #fff;
+	font-size: 30px;
+	margin: 15px;
+	background: #F08080;
+	width: 37%;
+	position: relative;
+	left: 31%;
+}
 /*--------------------fim da pagina contato------------------*/

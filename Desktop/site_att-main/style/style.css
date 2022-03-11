@@ -37,7 +37,6 @@ nav {
 main{
     background: url("../images/bg.jpg") no-repeat center center;
     background-size: cover;
-    height: 300vh;
 }
 
 .nav-list {
@@ -66,7 +65,7 @@ main{
 }
 
 @media (max-width: 999px){
-    body{
+    body, html{
         overflow-x: hidden;
         width: 100%;
     }
