@@ -3,36 +3,48 @@ nav h1{
     font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
+p, h1{
+    font-family: 'Sansita Swashed', cursive;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+.paragrafo{
+    background: white;
+    opacity: 0.5;
+    padding: 15px;
+}
 
 img{
     max-width: 100%;
     display: block;
 }
 
-.flex{
+.container1{
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
     margin: 0 auto;
 }
 
-.flex > div{
+.container1 > div{
 	flex: 1 1 200px;
     margin: 10px;
 }
 
 [data-anime]{
     opacity: 0;
-    transition: .4s;
+    transition: 1.3s;
+}
+
+[data-anime="right"]{
+    transform: translate3d(150px, 0, 0);
 }
 
 [data-anime="left"]{
-    transform: translate3d(-50px 0 0);
+    transform: translate3d(-150px, 0, 0);
 }
-[data-anime="right"]{
-    transform: translate3d(50px 0 0);
-}
+
 [data-anime].animate{
     opacity: 1;
-    transform: translate3d(0px 0px 0px);
+    transform: translate3d(0px, 0px, 0px);
 }

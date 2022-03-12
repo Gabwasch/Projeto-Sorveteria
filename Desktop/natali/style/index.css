@@ -19,7 +19,7 @@ img{
     display: block;
 }
 
-.flex{
+.container1{
     display: flex;
     flex-wrap: wrap;
     max-width: 800px;
@@ -42,6 +42,18 @@ img{
     margin: 10px;
 }
 
+.container3{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.container3 > div{
+	flex: 1 1 200px;
+    margin: 10px;
+}
+
 [data-anime]{
     opacity: 0;
     transition: 1.3s;
@@ -58,13 +70,6 @@ img{
 [data-anime].animate{
     opacity: 1;
     transform: translate3d(0px, 0px, 0px);
-}
-
-.container3{
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
 .modal{
